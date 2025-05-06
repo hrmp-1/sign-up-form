@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-flex">
+        <img src="./halie-west-eOBSy2sCnHw-unsplash.jpg"/>
+        <div class="logo-flex">
+            <div id="logo">ODIN</div>
+            <div id="logo-background"></div>
+        </div>
+    </div>
+    <form class="right-flex">
+        <div class="main-container">
+            <div class="title">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started.
+                </p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="form">
+                <p>Let's do this!</p>
+                <div class="form-container">
+                    <div class="left-form">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="user_password" required>
+                    </div>
+                    <div class="right-form">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="phone_number" id="phone_number" name="phone_number" required>
+                        <label for="confirm_user_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_user_password" name="confirm_user_password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="account">
+                <button type="submit" id="createAccountbtn">Create Account</button>
+                <div class="log-in">
+                    <p>Already have a log in?</p>
+                    <p><a>Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
